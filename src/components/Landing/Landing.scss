@@ -1,0 +1,47 @@
+@import "../../variables";
+
+@media (min-width:1200px) {
+    .landing {
+        height: 60vh !important;
+    }
+}
+
+@media(min-width:992px) {
+    .landing {
+        height: 8vh;
+    }
+}
+
+@media(min-width:767px) {
+    .landing {
+        height: 0vh !important;
+    }
+}
+
+@media (min-width:676px) {
+    .landing {
+        height: 93vh !important;
+    }
+}
+
+section.landing {
+    background-image: url("../../images/landing.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+        .slide {
+            div {
+                div {
+                    transition: all .5s;
+
+                    &:hover {
+                        transform: scale(1.02);
+                    }
+                }
+            }
+        }
+    }
+
+}

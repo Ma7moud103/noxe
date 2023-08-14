@@ -1,0 +1,43 @@
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+nav {
+  background-color: #131722;
+}
+nav .container div ul li a {
+  transition: all 0.3s;
+}
+nav .container div div {
+  transition: all 0.4s;
+}
+nav .container div div .icons i {
+  transition: all 0.3s;
+}
+nav .container div div .icons i:hover {
+  color: #949cb0;
+}
+nav .container div div a {
+  transition: all 0.3s;
+}
+nav .container div div a:hover {
+  color: #949cb0;
+}
+nav .container div div input {
+  color: black;
+}
+nav .container div div input:focus {
+  border: 1px solid rgba(168, 168, 168, 0.2392156863);
+  outline: none;
+}
+nav .container div div input::-moz-placeholder {
+  font-size: 18px;
+  padding: 0 10px;
+}
+nav .container div div input::placeholder {
+  font-size: 18px;
+  padding: 0 10px;
+}
+nav .container div input:focus {
+  border: 1px solid #24baef;
+}/*# sourceMappingURL=Navbar.css.map */

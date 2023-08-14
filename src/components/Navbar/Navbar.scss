@@ -1,0 +1,69 @@
+@import "../../variables";
+
+#menu-toggle:checked+#menu {
+    display: block;
+}
+
+
+nav {
+    background-color: $bgColor;
+
+    .container {
+        div {
+            ul {
+                li {
+                    // &:hover a {
+                    //     color: $secondFontColor;
+                    //     margin-left: 10px;
+                    // }
+
+                    a {
+                        transition: all .3s;
+                    }
+                }
+            }
+
+            div {
+                transition: all .4s;
+
+                .icons {
+                    i {
+                        transition: all .3s;
+
+                        &:hover {
+                            color: $secondFontColor;
+                        }
+                    }
+                }
+
+                a {
+                    transition: all .3s;
+
+                    &:hover {
+                        color: $secondFontColor;
+                    }
+                }
+
+
+                input {
+                    &:focus {
+                        border: 1px solid $borderColor;
+                        outline: none;
+                    }
+
+                    color: black;
+
+                    &::placeholder {
+                        font-size: 18px;
+                        padding: 0 10px;
+                    }
+                }
+
+            }
+
+            input:focus {
+                border: $borderHeight solid $lightBgColor;
+            }
+        }
+    }
+}
